@@ -1,0 +1,63 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #f1f1f1;
+	font-family: "montserrat", sans-serif;
+}
+.login-form {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	width: 400px;
+	background-color: #131517;
+	color: #eee;
+	border-radius: 7px;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+	margin-top: 30px;
+}
+
+.name-txt, .pass {
+	width: 295px;
+	height: 35px;
+	border-radius: 4px;
+	outline: none;
+	border: 2px solid #1c2833;
+	margin: 15px 15% 20px 15%;
+	background-color: black;
+	color: #eee;
+}
+
+.name-txt:hover, .pass:hover {
+	background-color: #515a5a;
+	color: #eee;
+	border: 2px solid #eee;
+}
+
+.btn {
+	width: 100px;
+	height: 50px;
+	margin: 27px auto;
+	border: 0;
+	display: block;
+	outline: none;
+	cursor: pointer;
+	border: 2px solid #1c2833;
+	background-color: black;
+	border-radius: 3px;
+	transition: 0.5s;
+	font-size: 16px;
+	text-align: center;
+	color: #eee;
+}
+
+.btn:hover {
+	background-color: #515a5a;
+	color: #fff;
+	border: 2px solid #eee;
+}
